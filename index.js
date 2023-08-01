@@ -69,5 +69,3 @@ app.post('/person', (req, res)=>{
 app.get('/persons', (req, res)=>{res.send(persons)})
 app.listen(port, ()=>{console.log("test")});
 
-
-
